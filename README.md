@@ -156,25 +156,43 @@ Prototype: Creates new objects by copying an existing object, avoiding the need 
 
 Structural Patterns:
 These patterns focus on how classes and objects are composed to form larger structures, emphasizing flexibility and efficiency.
+
 Adapter: Allows objects with incompatible interfaces to collaborate.
+
 Bridge: Decouples an abstraction from its implementation so that the two can vary independently.
+
 Composite: Composes objects into tree structures to represent part-whole hierarchies, allowing clients to treat individual objects and compositions uniformly.
+
 Decorator: Attaches new responsibilities to an object dynamically, providing a flexible alternative to subclassing for extending functionality.
+
 Facade: Provides a simplified interface to a complex subsystem.
+
 Flyweight: Reduces the number of objects created to improve performance and memory usage, especially when dealing with a large number of fine-grained objects.
+
 Proxy: Provides a surrogate or placeholder for another object to control access to it. 
 
 
 Behavioral Patterns:
 These patterns deal with the algorithms and assignment of responsibilities between objects, focusing on communication and interaction.
+
 Chain of Responsibility: Avoids coupling the sender of a request to its receiver by giving multiple objects a chance to handle the request.
+
 Command: Encapsulates a request as an object, thereby allowing parameterization of clients with different requests, queuing or logging of requests, and support for undoable operations.
+
 Interpreter: Given a language, defines a representation for its grammar along with an interpreter that uses the representation to interpret sentences in the language.
+
 Iterator: Provides a way to access the elements of an aggregate object sequentially without exposing its underlying representation.
+
 Mediator: Defines an object that encapsulates how a set of objects interact, promoting loose coupling by keeping objects from referring to each other explicitly.
+
 Memento: Captures and externalizes an object's internal state so that the object can be restored to this state later.
+
 Observer: Defines a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically.
+
 State: Allows an object to alter its behavior when its internal state changes, making it appear as if the object changed its class.
+
 Strategy: Defines a family of algorithms, encapsulates each one, and makes them interchangeable, allowing the algorithm to vary independently from the clients that use it.
+
 Template Method: Defines the skeleton of an algorithm in a method, deferring some steps to subclasses.
+
 Visitor: Represents an operation to be performed on the elements of an object structure, allowing new operations to be defined without changing the classes of the elements on which it operates.
